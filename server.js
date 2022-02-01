@@ -19,7 +19,7 @@ fs.readFile("./www/index.html", "utf-8", (err, data) => {
 // Do not be nice about exiting.
 if (err) {
     console.error(err)
-    process.exit(1)
+    return
 }
 // Define a const `server` as an arrow function using http.createServer. 
 // Use the documentation for the node.js http module. 
@@ -38,4 +38,5 @@ server.listen(port, () => {
     console.log(`Server running at port ${port}`)
 })
 // That's it! You're all done!
+process.exit(1)
 })
