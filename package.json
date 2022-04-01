@@ -19,6 +19,6 @@
   "author": "Yuhang Zhou",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
